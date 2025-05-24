@@ -1,16 +1,93 @@
 <!DOCTYPE html>
-<html lang="he">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>אתר ניסיון</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sushima - Sushi Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="header">
+    <div class="logo">Sushima</div>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <a class="order-btn" href="#">Order Online</a>
+    </nav>
+  </header>
+
   <section class="hero">
-    <h1>ברוכים הבאים</h1>
-    <p>זוהי דוגמה לאתר פשוט</p>
-    <a href="https://wa.me/972501234567" target="_blank">שלח וואטסאפ</a>
+    <h1>Feel the sushi of Japan</h1>
+    <p>Enjoy authentic sushi crafted with passion and tradition.</p>
+    <a class="cta-btn" href="#">Place Your Order</a>
+    <p class="phone">(316) 555-0116</p>
   </section>
+
+  <section class="categories">
+    <h2>Food Categories</h2>
+    <div class="category-items">
+      <div class="category"><img src="cat1.jpg"><p>Sushi Rolls</p></div>
+      <div class="category"><img src="cat2.jpg"><p>Nigiri</p></div>
+      <div class="category"><img src="cat3.jpg"><p>Tempura</p></div>
+    </div>
+  </section>
+
+  <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item"><h3>Nigiri Sushi</h3><p>$62</p></div>
+      <div class="item"><h3>Sashimi</h3><p>$45</p></div>
+      <div class="item"><h3>Maki Sushi</h3><p>$50</p></div>
+      <div class="item"><h3>Chirashi</h3><p>$35</p></div>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Why Choose Us</h2>
+    <div class="feature-boxes">
+      <div><h4>Healthy Food</h4><p>Fresh and quality ingredients only.</p></div>
+      <div><h4>Best Chefs</h4><p>Experienced sushi masters.</p></div>
+      <div><h4>Fast Delivery</h4><p>Right to your door.</p></div>
+    </div>
+  </section>
+
+  <section class="reservation">
+    <h2>Book a Table</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="tel" placeholder="Phone" required>
+      <input type="number" placeholder="People" required>
+      <input type="date" required>
+      <button type="submit">Reserve</button>
+    </form>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <blockquote>
+      <p>"Best sushi experience I've ever had!"</p>
+      <footer>— Jenny Wilson, 5 Stars</footer>
+    </blockquote>
+  </section>
+
+  <footer class="footer">
+    <div class="col">
+      <h3>Sushima</h3>
+      <p>Best sushi in town</p>
+    </div>
+    <div class="col">
+      <h4>Contact</h4>
+      <p>contact@sushima.com<br>(505) 555-0125</p>
+    </div>
+    <div class="col">
+      <h4>Hours</h4>
+      <p>Mon-Fri: 10:00–16:00<br>Sat-Sun: 10:00–20:00</p>
+    </div>
+  </footer>
 </body>
 </html>
+
